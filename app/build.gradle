@@ -6,8 +6,8 @@ android {
 
     defaultConfig {
         applicationId "com.example.niveditha.splitwiseproject2"
-        minSdkVersion 15
-        targetSdkVersion 21
+        minSdkVersion 11
+        targetSdkVersion 22
         versionCode 1
         versionName "1.0"
     }

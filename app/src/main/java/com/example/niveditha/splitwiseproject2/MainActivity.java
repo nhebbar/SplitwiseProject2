@@ -78,6 +78,7 @@ public class MainActivity extends ActionBarActivity {
                                 Intent intent = new Intent(MainActivity.this, HomeScreenActivity.class);
                                 intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                                 intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
+                                intent.putExtra("userName",user.getUsername());
                                 startActivity(intent);
                             }
                             else {
